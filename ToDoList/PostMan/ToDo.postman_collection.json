@@ -183,7 +183,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": " {  \r\n    \"userId\": 1,\r\n    \"id\": 3,\r\n    \"title\": \"fugiat veniam minus\",\r\n    \"completed\": false\r\n  }",
+							"raw": " {  \r\n    \"userId\": 1,\r\n    \"id\": 3000,\r\n    \"title\": \"fugiat veniam minus\",\r\n    \"completed\": false\r\n  }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -212,7 +212,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": " {  \r\n    \"userId\": 1,\r\n    \"id\": 3000,\r\n    \"title\": \"akali\",\r\n    \"completed\": false,\r\n    \"version\":1\r\n\r\n  }",
+							"raw": " {  \r\n    \"userId\": 1,\r\n    \"id\": 3000,\r\n    \"title\": \"akali\",\r\n    \"completed\": false,\r\n    \"version\":0\r\n\r\n  }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -240,7 +240,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/user/toDo/3000",
+							"raw": "http://localhost:8080/toDo/3000",
 							"protocol": "http",
 							"host": [
 								"localhost"
