@@ -19,7 +19,7 @@ You need to have docker to launch the project.
 3. Run the command :
 `docker compose up` to launch the project with docker
 
-### If you use the version working with java
+### If you use the version working with java -jar
 1. Launch docker
 
 2. Run the command :
