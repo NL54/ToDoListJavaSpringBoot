@@ -1,5 +1,5 @@
 # ToDoListJavaSpringBoot
-This is REST API of a To Do List done with Java, Spring boot, Spring data JDBC, PostgresSQL, Junit and docker.
+This is a REST API of a To Do List done with Java, Spring boot, Spring data JDBC, PostgresSQL, Junit and docker.
 
 This is a back-end project.
 
