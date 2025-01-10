@@ -29,7 +29,7 @@ You need to have docker to launch the project.
 `java -jar target/todolist-0.0.1-SNAPSHOT.jar` to launch the project with java
 
 ## To Test the project
-To test this project, you can use the file in the postman folder.
+To test this project, you can use the file in the postman folder. (use the one present on the last update)
 
 ## Initialization of the database
 The database of users and todos is initialized with data fetch from the API https://jsonplaceholder.typicode.com .
@@ -38,39 +38,82 @@ The database of users and todos is initialized with data fetch from the API http
 ### For User
 ### GET
 #### To get all the user
-```http://localhost:8080/api/user```
+````
+http://localhost:8080/api/user
+````
 
 #### To get a user by id
-```http://localhost:8080/api/user/id```
+````
+http://localhost:8080/api/user/id
+````
 
 ### PUT
 #### To updte a user by id
-```http://localhost:8080/api/user/11```
+````
+http://localhost:8080/api/user/11
+````
 
 ### POST
 #### To add a user
-```http://localhost:8080/api/user```
+````
+http://localhost:8080/api/user
+````
 
 ### DELETE
 #### To delete a user by id
-```http://localhost:8080/api/user/id```
+````
+http://localhost:8080/api/user/id
+````
 
 ### For Todos
 ### GET
 #### To get all the user
-```http://localhost:8080/api/toDo```
+````
+http://localhost:8080/api/toDo
+````
 
 #### To get a user by id
-```http://localhost:8080/api/user/id```
+````
+http://localhost:8080/api/user/id
+````
 
 ### PUT
 #### To updte a user
-```http://localhost:8080/api/toDo```
+````
+http://localhost:8080/api/toDo
+````
 
 ### POST
 #### To add a user
-```http://localhost:8080/api/toDo```
+````
+http://localhost:8080/api/toDo
+````
 
 ### DELETE
 #### To delete a user by id
-```http://localhost:8080/api/toDo/id```
+````
+http://localhost:8080/api/toDo/id
+````
+
+## Example of user
+````
+ {
+    "id": 11,
+    "name": "Chap Graham",
+    "username": "TheChapiChapo",
+    "email": "double@april.biz",
+    "phone": "1-777-736-8031 x56442",
+    "website": "okddd.org"
+  }
+````
+
+## Example of todo
+````
+ {  
+    "userId": 1,
+    "id": 3,
+    "title": "fugiat veniam minus",
+    "completed": false
+    "version":0  
+  }
+````
