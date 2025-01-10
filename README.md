@@ -48,7 +48,7 @@ http://localhost:8080/api/user/id
 ````
 
 ### PUT
-#### To updte a user by id
+#### To update a user by id
 ````
 http://localhost:8080/api/user/11
 ````
@@ -67,30 +67,31 @@ http://localhost:8080/api/user/id
 
 ### For Todos
 ### GET
-#### To get all the user
+#### To get all the todos
 ````
 http://localhost:8080/api/toDo
 ````
 
-#### To get a user by id
+#### To get a todo by id
 ````
 http://localhost:8080/api/user/id
 ````
 
 ### PUT
-#### To updte a user
+#### To update a todo
 ````
 http://localhost:8080/api/toDo
 ````
+Be carefull, when updating a todo, you need to make sure that you have the same version as the version in the database. (The version will then be automatically incremented when you update the todo).
 
 ### POST
-#### To add a user
+#### To add a todo
 ````
 http://localhost:8080/api/toDo
 ````
 
 ### DELETE
-#### To delete a user by id
+#### To delete a todo by id
 ````
 http://localhost:8080/api/toDo/id
 ````
